@@ -20,14 +20,20 @@ body {
 
 a{
   text-decoration: none;
-}
+  }
   a.new:link {
     color: red;
   }
-
+  a.new:visited {
+    color: red;
+  }
+  a.new:active {
+    color: red;
+  }
   a.new:hover {
     color: #efb3f8;
-  }
+  } 
+  
 
 /* Container Styles */
 .container {
